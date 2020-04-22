@@ -22,7 +22,8 @@ void add_queue(int ,int ,int );
 void print_distance(int ,struct data []);
 
 void main()
-{	//graph intialisation 
+{	
+	//graph intialisation 
 	
 	int a[9][9]={ 0,3,1,inf,4,inf,2,inf,1, 
 		      3,0,inf,3,1,3,4,inf,inf, 
