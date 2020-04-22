@@ -146,6 +146,7 @@ struct node* extract_min(struct node** arr) //extracting the min from heap
 
 	return min;
 
+	
 
 }
 void insert_node(struct node** arr,struct node* new_node)
