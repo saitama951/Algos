@@ -69,12 +69,11 @@ void dijkstras_distance(int n,int a[][9])
 		free(f);
 		f=q;
 		r=q;
-		//printf("%d\n%d\n%d",f,r,q);
-		//break;
+
 
 		for(i=0;i<9;i++)
 		{
-		//printf("hi");;
+
 			if(a[n][i]!=inf && a[n][i]!=0)
 			{
 				status =check_queue(n,i,a[n][i]+d);
